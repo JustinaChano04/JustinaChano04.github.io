@@ -37,14 +37,17 @@ const About = () => {
 							<Logo width={46} />
 						</div>
 					</div>
-
 					<div className="about-container">
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
+								<div className="subtitle about-subtitle">
+									{INFO.about.education}
+									<br></br>
+									{INFO.about.degree}
+								</div>
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>

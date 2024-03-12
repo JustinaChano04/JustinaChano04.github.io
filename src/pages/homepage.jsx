@@ -4,10 +4,8 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
+	faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -15,6 +13,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import Education from "../components/homepage/education";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -114,13 +113,13 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
+						<a
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faLinkedinIn}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -134,26 +133,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
-								href={INFO.socials.stackoverflow}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faStackOverflow}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
+
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -165,7 +145,12 @@ const Homepage = () => {
 								/>
 							</a>
 						</div>
-
+						<div className="homepage-works">
+							<Works />
+						</div>
+						<div className="homepage-educations">
+							<Education />	
+						</div>
 						<div className="homepage-projects">
 							<AllProjects />
 						</div>
@@ -188,9 +173,7 @@ const Homepage = () => {
 								))}
 							</div>
 
-							<div className="homepage-works">
-								<Works />
-							</div>
+
 						</div>
 
 						<div className="page-footer">

@@ -44,7 +44,6 @@
 .homepage-image-wrapper {
 	overflow: hidden;
 	border-radius: 10%;
-	transform: rotate(3deg);
 }
 
 .homepage-image-wrapper img {
@@ -56,6 +55,7 @@
 	justify-content: left;
 	align-items: center;
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .homepage-social-icon {

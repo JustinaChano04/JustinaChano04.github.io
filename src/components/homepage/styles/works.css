@@ -1,7 +1,8 @@
 @import "../../../data/styles.css";
 
 .works-body {
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .work {
@@ -41,4 +42,25 @@
 	padding-top: 20px;
 	text-align: right;
 	color: var(--tertiary-color);
+}
+
+.education {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	margin-right: -35px;
+	width: 400px;
+}
+
+.education-school {
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.education-degree {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+.education-duration {
+	font-size: 13px;
 }
