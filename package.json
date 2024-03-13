@@ -27,7 +27,7 @@
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
-	"homepage": "http://justinachano04.github.io/personal-website",
+	"homepage": "http://justinachano04.github.io/personal-website/",
 	"scripts": {
 		"start": "react-scripts start",
 		"predeploy": "npm run build",
