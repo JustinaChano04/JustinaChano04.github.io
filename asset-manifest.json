@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JustinaChano04.github.io/static/css/main.1f7f3d37.css",
-    "main.js": "/JustinaChano04.github.io/static/js/main.aba3ed2b.js",
-    "static/js/787.b008a081.chunk.js": "/JustinaChano04.github.io/static/js/787.b008a081.chunk.js",
-    "index.html": "/JustinaChano04.github.io/index.html",
-    "main.1f7f3d37.css.map": "/JustinaChano04.github.io/static/css/main.1f7f3d37.css.map",
-    "main.aba3ed2b.js.map": "/JustinaChano04.github.io/static/js/main.aba3ed2b.js.map",
-    "787.b008a081.chunk.js.map": "/JustinaChano04.github.io/static/js/787.b008a081.chunk.js.map"
+    "main.css": "/personal-website.git/static/css/main.1f7f3d37.css",
+    "main.js": "/personal-website.git/static/js/main.0868ed7e.js",
+    "static/js/787.b008a081.chunk.js": "/personal-website.git/static/js/787.b008a081.chunk.js",
+    "index.html": "/personal-website.git/index.html",
+    "main.1f7f3d37.css.map": "/personal-website.git/static/css/main.1f7f3d37.css.map",
+    "main.0868ed7e.js.map": "/personal-website.git/static/js/main.0868ed7e.js.map",
+    "787.b008a081.chunk.js.map": "/personal-website.git/static/js/787.b008a081.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f7f3d37.css",
-    "static/js/main.aba3ed2b.js"
+    "static/js/main.0868ed7e.js"
   ]
 }
