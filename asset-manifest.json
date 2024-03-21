@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.1f7f3d37.css",
-    "main.js": "/personal-website/static/js/main.b89ee768.js",
+    "main.css": "/personal-website/static/css/main.83556af5.css",
+    "main.js": "/personal-website/static/js/main.28c5241a.js",
     "static/js/787.0f15b36d.chunk.js": "/personal-website/static/js/787.0f15b36d.chunk.js",
     "static/media/homepage.jpg": "/personal-website/static/media/homepage.8acf0823a4fcd2c424f8.jpg",
+    "static/media/moneybag.png": "/personal-website/static/media/moneybag.6ccffc5bc735f75b3f41.png",
+    "static/media/justin-chan-resume.pdf": "/personal-website/static/media/justin-chan-resume.4bb22a22d8bb7a921bb1.pdf",
     "static/media/twitter.png": "/personal-website/static/media/twitter.7db2410756655c345272.png",
     "index.html": "/personal-website/index.html",
-    "main.1f7f3d37.css.map": "/personal-website/static/css/main.1f7f3d37.css.map",
-    "main.b89ee768.js.map": "/personal-website/static/js/main.b89ee768.js.map",
+    "main.83556af5.css.map": "/personal-website/static/css/main.83556af5.css.map",
+    "main.28c5241a.js.map": "/personal-website/static/js/main.28c5241a.js.map",
     "787.0f15b36d.chunk.js.map": "/personal-website/static/js/787.0f15b36d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f7f3d37.css",
-    "static/js/main.b89ee768.js"
+    "static/css/main.83556af5.css",
+    "static/js/main.28c5241a.js"
   ]
 }
