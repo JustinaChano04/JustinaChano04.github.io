@@ -8,6 +8,7 @@ import {
 	faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 
+
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -19,8 +20,11 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
+import IMAGES from "../data/images.js"
 
 import "./styles/homepage.css";
+
+
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -81,11 +85,11 @@ const Homepage = () => {
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
-					<div className="homepage-logo-container">
+					{/* <div className="homepage-logo-container">
 						<div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
 						</div>
-					</div>
+					</div> */}
 
 					<div className="homepage-container">
 						<div className="homepage-first-area">
@@ -103,8 +107,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
-											alt="about"
+											src={ IMAGES.profile }
+											alt="why"
 											className="homepage-image"
 										/>
 									</div>
@@ -155,7 +159,7 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div className="homepage-after-title">
+						{/* <div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -172,13 +176,11 @@ const Homepage = () => {
 									</div>
 								))}
 							</div>
+						</div> */}
 
-
-						</div>
-
-						<div className="page-footer">
+						{/* <div className="page-footer">
 							<Footer />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

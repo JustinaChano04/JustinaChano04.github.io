@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./styles/navBar.css";
+import resume from "../../images/justin-chan-resume.pdf";
 
 const NavBar = (props) => {
 	const { active } = props;
@@ -32,12 +33,14 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "articles"
+									active === "resume"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/articles">Articles</Link>
+								 {/* <iframe src='../images/justin-chan-resume.pdf' width='100%' height='500px' /> */}
+								 <a href={resume} target="_blank">Resume</a>
+								 
 							</li>
 						</ul>
 					</div>

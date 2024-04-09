@@ -5,6 +5,7 @@ import Project from "./project";
 import INFO from "../../data/user";
 
 import "./styles/allProjects.css";
+import IMAGES from '../../data/images.js'
 
 const AllProjects = () => {
 	return (
@@ -15,6 +16,7 @@ const AllProjects = () => {
 						logo={project.logo}
 						title={project.title}
 						description={project.description}
+						tools={project.tools}
 						linkText={project.linkText}
 						link={project.link}
 					/>

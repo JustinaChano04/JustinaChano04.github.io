@@ -4,6 +4,8 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import Card from "../common/card";
 
 import "./styles/works.css";
+import IMAGES from '../../data/images.js'
+import INFO from "../../data/user";
 
 const Works = () => {
 	return (
@@ -14,24 +16,22 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src=""
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Transglobe Insurance</div>
+							<div className="work-title">{INFO.work[3].company}</div>
 							<div className="work-subtitle">
-								Machine Learning Engineer Intern
+								{INFO.work[3].title}
 							</div>
-							<div className="work-duration">May 2023 - July 2023</div>
+							<div className="work-duration">{INFO.work[3].date}</div>
+						</div>
+						<div className="work">
+
+							<div className="work-title">{INFO.work[0].company}</div>
+							<div className="work-subtitle">
+								{INFO.work[0].title}
+							</div>
+							<div className="work-duration">{INFO.work[0].date}</div>
 						</div>
 
 						<div className="work">
-							<img
-								src=""
-								alt="twitter"
-								className="work-image"
-							/>
 							<div className="work-title">PricewaterhouseCoopers. (PwC)</div>
 							<div className="work-subtitle">
 								Data and Tech Intern
@@ -41,11 +41,6 @@ const Works = () => {
 						</div>
 
 						<div className="work">
-							<img
-								src=""
-								alt="twitter"
-								className="work-image"
-							/>
 							<div className="work-title">Merck&Co. </div>
 							<div className="work-subtitle">
 								Software Engineer Intern
